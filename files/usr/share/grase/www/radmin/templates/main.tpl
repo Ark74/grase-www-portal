@@ -41,6 +41,6 @@
 <tr><td class="title">{t}Network Interface{/t}</td><td colspan="2">{$Sysinfo->wan->iface}</td></tr>
 </tbody>
 </table>
-<p>Running services status page can be found at <a href="/grase/radmin/sysstatus">System Status</a></p>
+{t}Running services status page can be found at{/t} <a href="/grase/radmin/sysstatus">{t}System Status{/t}</a></p>
 
 {include file="footer.tpl"}
